@@ -1,84 +1,226 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/css/index.css" />
-    <title>3kh0.github.io</title>
-    <meta name="keywords" content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git" />
-    <meta property="og:title" content="Welcome to 3kh0.github.io, your best option for unblocked games on the internet." />
-    <meta property="og:site_name" content="3kh0.github.io" />
-    <meta property="og:description" content="Welcome to 3kh0.github.io, your best option for unblocked games on the internet." />
-    <meta name="description" content="Welcome to 3kh0.github.io, your best option for unblocked games on the internet." />
-    <meta name="author" content="3kh0" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <h1 id="title">
-      3kh0.github.io<br />
-      <span id="subtitle">...</span>
-    </h1>
-    <p class="text-center" id="start-menu">
-      Welcome to 3kh0.github.io, your best option for unblocked games on the internet.<br><br>
-      <a href="/projects.html"><button class="zoom" id="gs">Start playing!</button></a><br><br>
-      <a href="/dump/redirect.html?to=%2Fdump%2Findex.html&local=true"><button class="zoom" id="gs" style="background-color: #b625cc;">View more stuff</button></a>
-    </p>
-    <p id="intro" class="text-center">
-      But dont just take that from me, take it from the people who use this site!
-    </p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    <!-- Start Review section -->
-    <div class="flex-container">
-      <div class="card-wrapper zoom">
-        <div class="card text-center">
-          <img class="card-img-top" src="/img/reviews/NotJumbled86.webp" alt="NotJumbled86" />
-          <div class="card-body">
-            <h3>NotJumbled86</h3>
-            <p class="card-text">
-              10/10 Site, it is easy to use and has a lot of features. When it gets blocked, you can just deploy your own copy of the site!
-            </p>
-          </div>
-        </div>
-      </div>
+<!doctype html>
+<html lang="en">
 
-      <div class="card-wrapper zoom">
-        <div class="card text-center">
-          <img class="card-img-top" src="/img/reviews/Piplup7575.webp" alt="Piplup7575" />
-          <div class="card-body">
-            <h3>Piplup7575</h3>
-            <p class="card-text">10/10 would meme again. i am totally not one of the people working on the site...</p>
-          </div>
-        </div>
-      </div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <div class="card-wrapper zoom">
-        <div class="card text-center">
-          <img class="card-img-top" src="/img/reviews/DreamXD.webp" alt="DreamXD" />
-          <div class="card-body">
-            <h3>DreamXD</h3>
-            <p class="card-text">amazing site, i play on it everyday, super fun games and the site looks fire. it never gets blocked for me. the site is just good, everyone at my school plays it</p>
-          </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--FontAwesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <!--Chartjs CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+    <!--Custome CSS-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-info bg-info">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">KenInventory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Dashboard <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="profile.html">Admin Profile <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Logout</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Topside-->
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        Information
+                    </div>
+                    <div class="card-body">
+                        <marquee behavior="" direction="">
+                            <h3 class="my-4">This is the Information</h3>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        Statistics
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="text-decoration-none text-dark" href="staff.html">
+                                    <div class="card my-card shadow text-center p-3">
+                                        <h4>Staff <i class="fas fa-users"></i></h4>
+                                        <h3>4</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="text-decoration-none text-dark" href="product.html">
+                                    <div class="card my-card shadow text-center p-3">
+                                        <h4>Products <i class="fas fa-box"></i></h4>
+                                        <h3>4</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="text-decoration-none text-dark" href="order.html">
+                                    <div class="card my-card shadow text-center p-3">
+                                        <h4>Orders <i class="fas fa-shipping-fast"></i></h4>
+                                        <h3>4</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- End Review section -->
-    <p class="text-center">
-      What are you waiting for? Go find your next favorite game <a href="/projects.html">in our wide list of games</a>. Or you can view the <a href="/dump/changelog.txt">changelog here</a>!
-    </p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    <p class="text-center">© 3kh0, 2022. Unauthorized use and/or duplication of this material without permission from 3kh0 is strictly prohibited. Please contact Echo at <a href="/dump/redirect.html?to=mailto%3Aecho-the-coder%40tuta.io&local=false">echo-the-coder@tuta.io</a> for information.</p>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5756835229788588" data-ad-slot="6230603875" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    <script src="/js/main.js"></script>
-    <script src="/js/subtitle.js"></script>
-    <footer>
-      <link rel="stylesheet" type="text/css" href="css/cookiepopup.css" async />
-      <script src="js/cookiepopup.js" async></script>
-    </footer>
-  </body>
+    <!--End Topside-->
+
+    <!--Graphs-->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <div class="bg-white">
+                    <canvas id="myChart1" width="400" height="300"></canvas>
+                    <script>
+                        var ctx = document.getElementById('myChart1').getContext('2d');
+                        var myChart1 = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                                datasets: [{
+                                    label: 'Products',
+                                    data: [12, 19, 3, 5, 2, 3],
+                                    backgroundColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-white">
+                    <canvas id="myChart" width="400" height="300"></canvas>
+                    <script>
+                        var ctx = document.getElementById('myChart').getContext('2d');
+                        var myChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                                datasets: [{
+                                    label: 'Products',
+                                    data: [12, 19, 3, 5, 2, 3],
+                                    backgroundColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Graphs-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
 </html>
